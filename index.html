@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mobile-icon">
+        <div class="left-bar">9:45</div>
+        <div class="right-bar">
+          <i class="fa-solid fa-signal"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-battery-full fa-lg"></i>
+        </div>
+      </div>
+
+      <div class="heading">
+        <h3>Temperature Converter</h3>
+        <i class="fa-solid fa-temperature-three-quarters fa-2xl"></i>
+      </div>
+
+      <div class="degrees">
+        <div class="celcius">
+          <input type="number" placeholder="Celcius" id="celcius"/>
+          <span class="input-icon">&#8451</span>
+        </div>
+        <div class="fahrenheit">
+            <input type="number" placeholder="Fahrenheit" id="fahrenheit"/>
+            <span class="input-icon">&#8457</span>
+        </div>
+        <div class="kelvin">
+          <input type="number" placeholder="Kelvin" id="kelvin"/>
+            <span class="input-icon">&#8490</span>
+        </div>
+
+        <div class="btn-div">
+          <button>Clear All</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
